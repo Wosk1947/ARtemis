@@ -32,7 +32,6 @@ Honor V20 / Honor 20 / Honor 20Pro / Honor V30 / Honor V30Pro / Honor 30S / Hono
 
 Huawei AR Engine must be installed on your device. It is a separate app that is being distributed through Huawei App Gallery.
 
-You can download an APK from downloads or download a source code, modify it and build it.
 In order to build a project you will need Unity 2017.4.4 with up-to-date Android SDK and JDK. 
 Make sure you use Android 9.0 as target and minimum API level and also turn off Multithread Rendering. 
 

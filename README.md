@@ -16,7 +16,7 @@ eye and is blurred which creates an error during aiming. ARtemis solves all this
 because the 3d picture of environment is being projected on a 2d screen of the phone thus
 eliminating the necessity of using three points for aiming but only two - target and virtual
 crosshair on the screen of the phone. Just like in the videogame. Note that in order to use
-this app you should have some way to attach it firmly to your bow. It is mandatory for the phone
+this app you should have some way to attach your device firmly to your bow. It is mandatory for the phone
 to be motionless relative to bow. You can use some standart phone holders for it with some slight 
 modifications. For now ARtemis works only with Huawei AR Engine and on Huawei and Honor devices
 supporting AR, but in the future there will be support of other AR engines. Instructions of

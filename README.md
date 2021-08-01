@@ -14,7 +14,7 @@ of three points - target, some point on the aiming device and some point on the 
 The situation becomes even more difficult because the string is right in front of your 
 eye and is blurred which creates an error during aiming. ARtemis solves all this problems
 because the 3d picture of environment is being projected on a 2d screen of the phone thus
-eliminating the nessacity of using three points for aiming but only two - target and virtual
+eliminating the necessity of using three points for aiming but only two - target and virtual
 crosshair on the screen of the phone. Just like in the videogame. Note that in order to use
 this app you should have some way to attach it firmly to your bow. It is mandatory for the phone
 to be motionless relative to bow. You can use some standart phone holders for it with some slight 

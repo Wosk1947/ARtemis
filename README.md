@@ -64,7 +64,7 @@ Then walk to your desired shooting position. Now you should perform a calibratin
 for this position. Hold your bow. There is a gyroscope (3) and you can make an app
 remember the tilt of your bow (4) by pressing Calibrate Gyro (7). Put the red crosshair (1)
 ontop of the target and perform a shot. Stand still after the shot. Press Set button (7). The
-blue crosshair (2) will appear. Using the directional buttons (6) align the blue crosshair
+crosshair (2) will appear. Using the directional buttons (6) align the crosshair
 with the actual point where your arrow went. The red crosshair should remain ontop of point you
 were aiming at. After you finished aligning the crosshair - press Ready (7). Also the virtual 
 marker (5) will appear around you so that later you can return to ths very position. Now the 

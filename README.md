@@ -2,10 +2,13 @@
 
 # Introduction
 
-<img src="https://user-images.githubusercontent.com/66104180/127740710-99eb2960-6bb5-4822-b3a3-8e7599a883ef.jpg" width="400"/>
-<img src="https://user-images.githubusercontent.com/66104180/127740700-0287b059-ac49-4f09-ab9d-5c4b54e9fd73.jpg" width="400"/>
+<img src="https://user-images.githubusercontent.com/66104180/128610057-202270a9-be67-402c-aa03-5a56262e612b.jpg" width="400"/>
+<img src="https://user-images.githubusercontent.com/66104180/128610070-dad78d68-e419-4d8a-a459-c4a62f3be232.jpg" width="400"/>
 
-Video demonstarting usage of the app: https://youtu.be/s7s3jTgDD7k
+![Hnet-image (1)](https://user-images.githubusercontent.com/66104180/128610188-7c7a7b90-a421-4b87-bfe2-dd49104e78cf.gif)
+
+Video demonstarting usage of the app: https://youtu.be/s7s3jTgDD7k 
+https://youtu.be/1yLuDBYvhYk
 
 ARtemis is an app that turns your smartphone into augmented reality aiming 
 device for your bow (possibly for others projectile weapons too). It simplifies
@@ -22,6 +25,17 @@ modifications. For now ARtemis works only with Huawei AR Engine and on Huawei an
 supporting AR, but in the future there will be support of other AR engines. Instructions of
 using the app is below. 
 
+# Version 0.1
+
+Basic functionality: measuring distance to target, setting crosshairs for different positions (distances).
+
+# Version 0.2
+
+Added virtual practice target in the form of enemy archer. It will explode to pieces if you shoot at him.
+Demonstration: https://youtu.be/1yLuDBYvhYk
+Added functions of clearing and resetting different elemnts.
+Added HUD button to turn hud on/off.
+
 # Installation
 
 The list of currently supported devices:
@@ -33,11 +47,15 @@ Honor V20 / Honor 20 / Honor 20Pro / Honor V30 / Honor V30Pro / Honor 30S / Hono
 Huawei AR Engine must be installed on your device. It is a separate app that is being distributed through Huawei App Gallery.
 
 In order to build a project you will need Unity 2017.4.4 with up-to-date Android SDK and JDK. 
-Make sure you use Android 9.0 as target and minimum API level and also turn off Multithread Rendering. 
+Make sure you use Android 9.0 as target and minimum API level and also turn off Multithread Rendering.
+Don't forget to calibrate the acceleration check in the code for your bow in order for the app to
+correctly recognize the shot. 
 
 # Operating instructions:
 
-<img src="https://user-images.githubusercontent.com/66104180/127740649-e414acc7-dfeb-4af0-b6b7-c7f15739e55b.jpg" width="600"/>
+<img src="https://user-images.githubusercontent.com/66104180/128610104-fd4b698f-8f61-4826-b8fb-f41a3c079418.jpg" width="600"/>
+
+Before using the app shoot several times so that your physical set up will come into equilibrium.
 
 Firstly you should set up a target. Walk to the target and press the Target button (7). After this 
 the app will remember a position of a target and will start measuring distance to it (8).
@@ -46,10 +64,16 @@ Then walk to your desired shooting position. Now you should perform a calibratin
 for this position. Hold your bow. There is a gyroscope (3) and you can make an app
 remember the tilt of your bow (4) by pressing Calibrate Gyro (7). Put the red crosshair (1)
 ontop of the target and perform a shot. Stand still after the shot. Press Set button (7). The
-red dot (2) will appear. Using the directional buttons (6) align the red dot
+blue crosshair (2) will appear. Using the directional buttons (6) align the blue crosshair
 with the actual point where your arrow went. The red crosshair should remain ontop of point you
-were aiming at. After you finished aligning the dot - press Ready (7). Also the virtual 
+were aiming at. After you finished aligning the crosshair - press Ready (7). Also the virtual 
 marker (5) will appear around you so that later you can return to ths very position. Now the 
 device is calibrated for this position or for this destance. So every shot from this distance 
 will go to the point beneath this blue crosshair. You can repeat this for several distances 
-if you want. 
+if you want. If you want to reset last crosshair and position - press Reset Last button (7).
+If you want to clear all markers and crosshairs - press Clear All Markers button (7).
+If you want to install practice dummy - press Dummy button (7). The dummy will be installed into
+your current position. If you shoot dummy in the torso - it will explode. Before this make sure
+at least one crosshair is set (The app checks if the first crosshair is adjasent to torso center).
+You can reset the dummy pressing Dummy button again. If you want to turn interface elements off or on 
+press HUD button (7). 

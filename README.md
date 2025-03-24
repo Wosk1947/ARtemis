@@ -7,9 +7,6 @@
 
 ![Hnet-image (1)](https://user-images.githubusercontent.com/66104180/128610188-7c7a7b90-a421-4b87-bfe2-dd49104e78cf.gif)
 
-Video demonstarting usage of the app: https://youtu.be/s7s3jTgDD7k 
-https://youtu.be/1yLuDBYvhYk
-
 ARtemis is an app that turns your smartphone into augmented reality aiming 
 device for your bow (possibly for others projectile weapons too). It simplifies
 the aiming process. Classical aiming devices for bow require you to perform overlapping
@@ -32,7 +29,6 @@ Basic functionality: measuring distance to target, setting crosshairs for differ
 # Version 0.2
 
 Added virtual practice target in the form of enemy archer. It will explode to pieces if you shoot at him.
-Demonstration: https://youtu.be/1yLuDBYvhYk
 Added functions of clearing and resetting different elemnts.
 Added HUD button to turn hud on/off.
 
